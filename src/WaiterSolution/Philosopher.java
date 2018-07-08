@@ -72,6 +72,7 @@ public class Philosopher extends Thread {
 			}
 		}
 		status = false;
+		
 	}
 	public void run() {
 		for(int i = 0;i<100;i++) {
